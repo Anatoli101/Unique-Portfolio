@@ -171,9 +171,16 @@ section.container {
 .about.container{padding: 0;}
 
 .about__img{position: relative; top: -200px;}
-.about__img:before{ content:url(/img/ABOUT.svg);position: absolute;width: 515px;opacity: .5;bottom:-670px;}
-.about__description{width: 500px;}
+.about__img:before{ content:url(/img/ABOUT.svg);position: absolute;width: 515px;opacity: .5;bottom:-560px;}
+.about__description{width: 500px;margin-top: 375px;}
 .about__description-h1{font-size: 48px;}
-.about__description-h4{font-size: 18px;line-height: 31px;}
+.about__description-h4{margin-top: 20px;font-size: 18px;line-height: 31px;}
+
+.about__description-technologies{display: flex;flex-wrap: wrap;margin-top: 50px;
+ }
+.about__technology{display: flex;align-items: center;}
+.about__technology h2{margin-left: 35px;}
+.about__technology:nth-of-type(1){width: 100%;}
+.about__technology:nth-of-type(2), .about__technology:nth-of-type(3){width: 50%;margin-top: 50px;}
 
 
