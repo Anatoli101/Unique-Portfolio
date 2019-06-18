@@ -51,6 +51,17 @@ body {
     background-size: 100px 100px;
 }
 
+.container {
+    padding: 250px 0 0 0;
+    width: calc(100% - 570px);
+    position: relative;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
 header {
     width: calc(100vw - 170px);
     height: calc(100vh - 30px);
@@ -139,15 +150,7 @@ header {
     width: 100px;
 }
 
-.container {
-    padding: 250px 0 0 0;
-    width: calc(100vw - 170px);
-    position: relative;
-    margin: auto auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 
 .works__example {
     width: 515px;
@@ -155,6 +158,7 @@ header {
     background-color: #5A5757;
     transition: .5s;
     position: relative;
+    margin: 0 70px;
 }
 
 .works__example:hover {
@@ -197,6 +201,14 @@ header {
 
 .about.container {
     padding: 0;
+    height: 100%;
+}
+
+/* 362 */
+
+.about .about__img, 
+.about .about__description{
+    margin: 0 70px;
 }
 
 .about__img {
@@ -209,12 +221,14 @@ header {
     position: absolute;
     width: 515px;
     opacity: .5;
-    bottom: -260px;
+    bottom: -510px;
 }
 
 .about__description {
     width: 500px;
     margin-top: 375px;
+    position: relative;
+    top: 462px;
 }
 
 .about__description-h1 {
@@ -252,12 +266,13 @@ header {
     margin-top: 50px;
 }
 
-.contact.contact {
+.contact.container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    padding-top: 400px;
 }
 
 .contact__title {
